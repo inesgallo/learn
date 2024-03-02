@@ -1,14 +1,17 @@
-import Counter from './components/Counter'
-import Text from './components/Text'
+import Counter from "./components/Counter";
+import Text from "./components/Text";
 
 function App() {
-
   return (
     <>
-       <Counter/>
-       <Text/>
+      <Counter />
+      <hr />
+      <br />
+      <Text />
+      <br />
+      <hr />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
